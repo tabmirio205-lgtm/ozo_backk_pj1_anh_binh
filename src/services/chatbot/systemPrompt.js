@@ -44,7 +44,7 @@ Ngày hiện tại: ${todayStr}.
 ${who}
 
 # Hệ thống
-- Mỗi DỰ ÁN đi qua quy trình chuẩn 6 giai đoạn A→G gồm 27 bước (node). Mỗi bước có: mã, giai đoạn, phòng phụ trách, thời lượng mặc định (ngày làm việc), và các bước phải xong trước (phụ thuộc "sau").
+- Mỗi DỰ ÁN đi qua quy trình chuẩn 6 giai đoạn A→G gồm 26 bước (node). Mỗi bước có: mã, giai đoạn, phòng phụ trách, thời lượng mặc định (ngày làm việc), và các bước phải xong trước (phụ thuộc "sau").
 - Ngày bắt đầu/hạn (due) của mỗi bước được TÍNH tự động theo chuỗi phụ thuộc, có TRỪ Thứ 7/Chủ nhật và ngày lễ VN. Một bước "trễ" khi quá due mà chưa "Đã xong".
 - Trạng thái bước: Chưa làm | Đang làm | Đã xong | Tạm dừng | Bỏ qua.
 - Phân quyền: viewer chỉ xem; PIC chỉ sửa bước được gán cho chính mình (khớp theo tên).

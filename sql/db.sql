@@ -29,6 +29,7 @@ CREATE TABLE public.project_nodes (
   id bigint NOT NULL DEFAULT nextval('project_nodes_id_seq'::regclass),
   project_id bigint NOT NULL,
   node_id text NOT NULL,
+  name text,
   status text NOT NULL DEFAULT 'Chưa làm'::text,
   pic text[] DEFAULT '{}'::text[],
   duration integer NOT NULL,

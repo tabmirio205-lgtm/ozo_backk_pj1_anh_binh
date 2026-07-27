@@ -36,9 +36,13 @@ async function writeNodes(supabase, rows, { upsert = false } = {}) {
       ? supabase.from('project_nodes').upsert(data, { onConflict: 'project_id,node_id' })
       : supabase.from('project_nodes').insert(data);
   let { error } = await run(rows);
-  if (error && /planned_date/i.test(error.message || '')) {
-    const stripped = rows.map(({ planned_date, ...rest }) => rest);
-    ({ error } = await run(stripped));
+  // DB có thể chưa có cột planned_date và/hoặc name (chạy trước sql migration tương ứng)
+  // -> bỏ cột thiếu rồi thử lại, để không chặn ghi node.
+  for (const col of ['planned_date', 'name']) {
+    if (error && new RegExp(col, 'i').test(error.message || '')) {
+      rows = rows.map(({ [col]: _omit, ...rest }) => rest);
+      ({ error } = await run(rows));
+    }
   }
   if (error) throw error;
 }
@@ -95,7 +99,9 @@ async function getProjectDetail(projectId) {
   const masterMap = Object.fromEntries((masterNodes ?? []).map((item) => [item.code, item]));
   const mergedNodes = (nodes ?? []).map((node) => ({
     ...node,
-    node_name: masterMap[node.node_id]?.name || node.node_id,
+    // Tên lấy TÊN RIÊNG lưu trên node trước (để dự án cũ giữ bố cục cũ dù master đổi),
+    // rồi mới fallback về master dùng chung.
+    node_name: node.name || masterMap[node.node_id]?.name || node.node_id,
     stage: masterMap[node.node_id]?.stage || node.node_id.charAt(0),
   }));
 
@@ -273,7 +279,8 @@ async function listProjectsWithNodes() {
   for (const node of nodes ?? []) {
     const enriched = {
       ...node,
-      node_name: masterMap[node.node_id]?.name || node.node_id,
+      // Ưu tiên tên riêng của node (dự án cũ giữ nguyên), fallback master dùng chung.
+      node_name: node.name || masterMap[node.node_id]?.name || node.node_id,
       stage: masterMap[node.node_id]?.stage || node.node_id.charAt(0),
     };
     if (!nodesByProjectId.has(node.project_id)) nodesByProjectId.set(node.project_id, []);
@@ -298,24 +305,21 @@ async function createProject(payload) {
     .single();
   if (projectError) throw projectError;
 
-  const { data: masterNodes, error: masterError } = await supabase
-    .from('master_nodes')
-    .select('*')
-    .order('code', { ascending: true });
-  if (masterError) throw masterError;
-
-  // PIC mặc định của mỗi bước = nhãn vai trò "Trưởng phòng <phòng>" (không phải tên người).
-  const rows = (masterNodes ?? []).map((n) => ({
+  // Seed thẳng từ WORKFLOW_NODES (nguồn chuẩn của quy trình), KHÔNG đọc master:
+  // đảm bảo dự án mới đúng bố cục hiện tại và không dính node cũ còn sót trong master.
+  // Lưu luôn TÊN RIÊNG vào node để về sau đổi quy trình không ảnh hưởng dự án cũ.
+  const rows = WORKFLOW_NODES.map((n) => ({
     project_id: project.id,
     node_id: n.code,
+    name: n.name,
     status: 'Chưa làm',
     // PIC là MẢNG (text[]). Mặc định = [nhãn trưởng phòng] nếu bước có phòng.
     pic: n.dept ? [leaderLabel(n.dept)] : [],
-    duration: n.default_duration,
+    duration: n.defaultDuration,
     actual_date: null,
     notes: '',
     dept: n.dept,
-    after: n.default_after || [],
+    after: n.defaultAfter || [],
     attachments: [],
   }));
 
@@ -357,6 +361,8 @@ async function copyProject(sourceProjectId, { code, name }) {
   const rows = (nodes || []).map((n) => ({
     project_id: created.id,
     node_id: n.node_id,
+    // Giữ TÊN RIÊNG của dự án nguồn (node_name = tên đã hiển thị/đã lưu).
+    name: n.name || n.node_name || null,
     status: n.status,
     pic: toPicArray(n.pic),
     duration: n.duration,
@@ -416,6 +422,7 @@ async function upsertProjectFromJsonRow(projectJson) {
     return {
       project_id: project.id,
       node_id: nodeId,
+      name: nodeData.name || nodeMeta?.name || nodeId,
       status: nodeData.status || 'Chua lam',
       pic: toPicArray(nodeData.pic),
       duration:
