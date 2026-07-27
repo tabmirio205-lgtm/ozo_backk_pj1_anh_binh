@@ -1,0 +1,2805 @@
+[
+  {
+    "id": 2164,
+    "project_id": 80,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T01:35:16.996519+00:00",
+    "updated_at": "2026-07-27T10:57:31.528074+00:00",
+    "planned_date": "2026-10-15",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA33"
+  },
+  {
+    "id": 2166,
+    "project_id": 80,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T01:35:16.996519+00:00",
+    "updated_at": "2026-07-27T10:57:31.727252+00:00",
+    "planned_date": "2026-10-23",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA33"
+  },
+  {
+    "id": 2167,
+    "project_id": 80,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T01:35:16.996519+00:00",
+    "updated_at": "2026-07-27T10:57:31.839918+00:00",
+    "planned_date": "2027-02-11",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA33"
+  },
+  {
+    "id": 2163,
+    "project_id": 80,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PC-DV"
+    ],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T01:35:16.996519+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-09-24",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA33"
+  },
+  {
+    "id": 1802,
+    "project_id": 67,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-07T01:58:28.257782+00:00",
+    "updated_at": "2026-07-27T10:57:50.952908+00:00",
+    "planned_date": "2026-07-23",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA213 - Recare"
+  },
+  {
+    "id": 1338,
+    "project_id": 50,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.000404+00:00",
+    "updated_at": "2026-07-27T10:57:34.169595+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA39"
+  },
+  {
+    "id": 1340,
+    "project_id": 50,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.000404+00:00",
+    "updated_at": "2026-07-27T10:57:34.369604+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA39"
+  },
+  {
+    "id": 1341,
+    "project_id": 50,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.000404+00:00",
+    "updated_at": "2026-07-27T10:57:34.475036+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA39"
+  },
+  {
+    "id": 1800,
+    "project_id": 67,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Lê Hương Giang"
+    ],
+    "duration": 16,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-07T01:58:28.257782+00:00",
+    "updated_at": "2026-07-27T10:57:50.732713+00:00",
+    "planned_date": "2026-07-23",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA213 - Recare"
+  },
+  {
+    "id": 1337,
+    "project_id": 50,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.000404+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA39"
+  },
+  {
+    "id": 1799,
+    "project_id": 67,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-07T01:58:28.257782+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA213 - Recare"
+  },
+  {
+    "id": 1365,
+    "project_id": 51,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.227106+00:00",
+    "updated_at": "2026-07-27T10:57:26.468228+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA20"
+  },
+  {
+    "id": 1367,
+    "project_id": 51,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.227106+00:00",
+    "updated_at": "2026-07-27T10:57:26.675494+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA20"
+  },
+  {
+    "id": 1368,
+    "project_id": 51,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.227106+00:00",
+    "updated_at": "2026-07-27T10:57:26.788151+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA20"
+  },
+  {
+    "id": 2192,
+    "project_id": 81,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung",
+      "Trưởng phòng NCC"
+    ],
+    "duration": 22,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T02:02:10.245379+00:00",
+    "updated_at": "2026-07-27T10:57:32.358351+00:00",
+    "planned_date": "2026-10-15",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA35"
+  },
+  {
+    "id": 2195,
+    "project_id": 81,
+    "node_id": "D4",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T02:02:10.245379+00:00",
+    "updated_at": "2026-07-27T10:57:32.796191+00:00",
+    "planned_date": "2027-02-11",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA35"
+  },
+  {
+    "id": 1364,
+    "project_id": 51,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.227106+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA20"
+  },
+  {
+    "id": 1394,
+    "project_id": 52,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.442403+00:00",
+    "updated_at": "2026-07-27T10:57:27.537175+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA22"
+  },
+  {
+    "id": 1395,
+    "project_id": 52,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.442403+00:00",
+    "updated_at": "2026-07-27T10:57:27.637826+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA22"
+  },
+  {
+    "id": 2332,
+    "project_id": 86,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:35:52.631337+00:00",
+    "updated_at": "2026-07-27T10:57:39.98582+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA101 - 3S"
+  },
+  {
+    "id": 1391,
+    "project_id": 52,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.442403+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA22"
+  },
+  {
+    "id": 2191,
+    "project_id": 81,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PC-DV"
+    ],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T02:02:10.245379+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-09-24",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA35"
+  },
+  {
+    "id": 1419,
+    "project_id": 53,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.650907+00:00",
+    "updated_at": "2026-07-27T10:57:28.163193+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA24"
+  },
+  {
+    "id": 1421,
+    "project_id": 53,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.650907+00:00",
+    "updated_at": "2026-07-27T10:57:28.378415+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA24"
+  },
+  {
+    "id": 1422,
+    "project_id": 53,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.650907+00:00",
+    "updated_at": "2026-07-27T10:57:28.479039+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA24"
+  },
+  {
+    "id": 2334,
+    "project_id": 86,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:35:52.631337+00:00",
+    "updated_at": "2026-07-27T10:57:40.184249+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA101 - 3S"
+  },
+  {
+    "id": 1418,
+    "project_id": 53,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.650907+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA24"
+  },
+  {
+    "id": 2335,
+    "project_id": 86,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:35:52.631337+00:00",
+    "updated_at": "2026-07-27T10:57:40.280991+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA101 - 3S"
+  },
+  {
+    "id": 2331,
+    "project_id": 86,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:35:52.631337+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA101 - 3S"
+  },
+  {
+    "id": 1448,
+    "project_id": 54,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.86025+00:00",
+    "updated_at": "2026-07-27T10:57:36.87064+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA44"
+  },
+  {
+    "id": 1449,
+    "project_id": 54,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.86025+00:00",
+    "updated_at": "2026-07-27T10:57:36.966173+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA44"
+  },
+  {
+    "id": 2362,
+    "project_id": 88,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:53:37.199366+00:00",
+    "updated_at": "2026-07-27T10:57:41.028512+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA201 - Recare"
+  },
+  {
+    "id": 2503,
+    "project_id": 93,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:21:08.077847+00:00",
+    "updated_at": "2026-07-27T10:57:45.267918+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA206 - Recare"
+  },
+  {
+    "id": 1445,
+    "project_id": 54,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.86025+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA44"
+  },
+  {
+    "id": 1473,
+    "project_id": 55,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.063953+00:00",
+    "updated_at": "2026-07-27T10:57:35.847748+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA43"
+  },
+  {
+    "id": 1475,
+    "project_id": 55,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.063953+00:00",
+    "updated_at": "2026-07-27T10:57:36.048366+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA43"
+  },
+  {
+    "id": 1476,
+    "project_id": 55,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.063953+00:00",
+    "updated_at": "2026-07-27T10:57:36.15491+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA43"
+  },
+  {
+    "id": 1472,
+    "project_id": 55,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.063953+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA43"
+  },
+  {
+    "id": 2388,
+    "project_id": 89,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:57:24.596895+00:00",
+    "updated_at": "2026-07-27T10:57:41.636401+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA202 - Recare"
+  },
+  {
+    "id": 2390,
+    "project_id": 89,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:57:24.596895+00:00",
+    "updated_at": "2026-07-27T10:57:41.848845+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA202 - Recare"
+  },
+  {
+    "id": 2387,
+    "project_id": 89,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:57:24.596895+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA202 - Recare"
+  },
+  {
+    "id": 2250,
+    "project_id": 83,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung"
+    ],
+    "duration": 12,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T03:40:42.216101+00:00",
+    "updated_at": "2026-07-27T10:57:37.687164+00:00",
+    "planned_date": "2026-10-23",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA47"
+  },
+  {
+    "id": 1526,
+    "project_id": 57,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.650913+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA27"
+  },
+  {
+    "id": 2247,
+    "project_id": 83,
+    "node_id": "D1",
+    "status": "Đã xong",
+    "pic": [],
+    "duration": 5,
+    "actual_date": "2026-07-24",
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T03:40:42.216101+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-09-24",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA47"
+  },
+  {
+    "id": 1529,
+    "project_id": 57,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.650913+00:00",
+    "updated_at": "2026-07-27T10:57:29.219547+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA27"
+  },
+  {
+    "id": 1530,
+    "project_id": 57,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.650913+00:00",
+    "updated_at": "2026-07-27T10:57:29.330317+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA27"
+  },
+  {
+    "id": 2275,
+    "project_id": 84,
+    "node_id": "D1",
+    "status": "Chưa làm",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T04:22:35.11005+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-09-24",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA48"
+  },
+  {
+    "id": 2278,
+    "project_id": 84,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T04:22:35.11005+00:00",
+    "updated_at": "2026-07-27T10:57:38.512836+00:00",
+    "planned_date": "2026-10-23",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA48"
+  },
+  {
+    "id": 2279,
+    "project_id": 84,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T04:22:35.11005+00:00",
+    "updated_at": "2026-07-27T10:57:38.611003+00:00",
+    "planned_date": "2027-02-11",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA48"
+  },
+  {
+    "id": 2418,
+    "project_id": 90,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:18:00.800904+00:00",
+    "updated_at": "2026-07-27T10:57:42.681577+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA203 - Recare"
+  },
+  {
+    "id": 2415,
+    "project_id": 90,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:18:00.800904+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA203 - Recare"
+  },
+  {
+    "id": 2806,
+    "project_id": 105,
+    "node_id": "D1",
+    "status": "Chưa làm",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:49:27.454501+00:00",
+    "updated_at": "2026-07-27T10:49:27.454501+00:00",
+    "planned_date": "2026-10-20",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA50"
+  },
+  {
+    "id": 1554,
+    "project_id": 58,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.857177+00:00",
+    "updated_at": "2026-07-27T10:57:29.85023+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA28"
+  },
+  {
+    "id": 1556,
+    "project_id": 58,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.857177+00:00",
+    "updated_at": "2026-07-27T10:57:30.052657+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA28"
+  },
+  {
+    "id": 1557,
+    "project_id": 58,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.857177+00:00",
+    "updated_at": "2026-07-27T10:57:30.159855+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA28"
+  },
+  {
+    "id": 1553,
+    "project_id": 58,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.857177+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA28"
+  },
+  {
+    "id": 2807,
+    "project_id": 105,
+    "node_id": "D2",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:49:27.454501+00:00",
+    "updated_at": "2026-07-27T10:49:27.454501+00:00",
+    "planned_date": "2026-11-10",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA50"
+  },
+  {
+    "id": 2808,
+    "project_id": 105,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:49:27.454501+00:00",
+    "updated_at": "2026-07-27T10:49:27.454501+00:00",
+    "planned_date": "2026-11-18",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA50"
+  },
+  {
+    "id": 2809,
+    "project_id": 105,
+    "node_id": "D4",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:49:27.454501+00:00",
+    "updated_at": "2026-07-27T10:49:27.454501+00:00",
+    "planned_date": "2027-03-09",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA50"
+  },
+  {
+    "id": 1584,
+    "project_id": 59,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.06346+00:00",
+    "updated_at": "2026-07-27T10:57:30.997059+00:00",
+    "planned_date": "2026-10-16",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA32"
+  },
+  {
+    "id": 2446,
+    "project_id": 91,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:19:17.951453+00:00",
+    "updated_at": "2026-07-27T10:57:43.509989+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA204 - Recare"
+  },
+  {
+    "id": 1580,
+    "project_id": 59,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.06346+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA32"
+  },
+  {
+    "id": 1664,
+    "project_id": 62,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.663221+00:00",
+    "updated_at": "2026-07-27T10:57:33.540248+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA37"
+  },
+  {
+    "id": 1665,
+    "project_id": 62,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.663221+00:00",
+    "updated_at": "2026-07-27T10:57:33.63869+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA37"
+  },
+  {
+    "id": 1689,
+    "project_id": 63,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.863845+00:00",
+    "updated_at": "2026-07-27T10:57:34.999371+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA40"
+  },
+  {
+    "id": 1688,
+    "project_id": 63,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.863845+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA40"
+  },
+  {
+    "id": 1691,
+    "project_id": 63,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.863845+00:00",
+    "updated_at": "2026-07-27T10:57:35.203775+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA40"
+  },
+  {
+    "id": 2471,
+    "project_id": 92,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:20:19.583636+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA205 - Recare"
+  },
+  {
+    "id": 1692,
+    "project_id": 63,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.863845+00:00",
+    "updated_at": "2026-07-27T10:57:35.312986+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA40"
+  },
+  {
+    "id": 2475,
+    "project_id": 92,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:20:19.583636+00:00",
+    "updated_at": "2026-07-27T10:57:44.441757+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA205 - Recare"
+  },
+  {
+    "id": 2472,
+    "project_id": 92,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Trần Thị Huyền Trang",
+      "Trưởng phòng PP"
+    ],
+    "duration": 21,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:20:19.583636+00:00",
+    "updated_at": "2026-07-27T10:57:44.134413+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA205 - Recare"
+  },
+  {
+    "id": 2474,
+    "project_id": 92,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:20:19.583636+00:00",
+    "updated_at": "2026-07-27T10:57:44.345532+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA205 - Recare"
+  },
+  {
+    "id": 1392,
+    "project_id": 52,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.442403+00:00",
+    "updated_at": "2026-07-27T10:57:27.32114+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA22"
+  },
+  {
+    "id": 2248,
+    "project_id": 83,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung"
+    ],
+    "duration": 15,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T03:40:42.216101+00:00",
+    "updated_at": "2026-07-27T10:57:37.473827+00:00",
+    "planned_date": "2026-10-15",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA47"
+  },
+  {
+    "id": 2251,
+    "project_id": 83,
+    "node_id": "D4",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T03:40:42.216101+00:00",
+    "updated_at": "2026-07-27T10:57:37.786677+00:00",
+    "planned_date": "2027-02-11",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA47"
+  },
+  {
+    "id": 2500,
+    "project_id": 93,
+    "node_id": "D2",
+    "status": "Đã xong",
+    "pic": [
+      "Lê Hương Giang",
+      "Trưởng phòng PP"
+    ],
+    "duration": 3,
+    "actual_date": "2026-07-22",
+    "notes": "Tăng định mức huơng strawberry theo mẫu cuối cùng nhận. Sếp duyệt",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [
+      {
+        "url": "https://res.cloudinary.com/xuyxunrb/image/upload/v1784708438/feelex-attachments/1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca_iglqyb.jpg",
+        "name": "1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca.jpg"
+      }
+    ],
+    "created_at": "2026-07-16T09:21:08.077847+00:00",
+    "updated_at": "2026-07-27T10:57:44.958912+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA206 - Recare"
+  },
+  {
+    "id": 2558,
+    "project_id": 95,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:34:12.188982+00:00",
+    "updated_at": "2026-07-27T10:57:46.815754+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA208 - Recare"
+  },
+  {
+    "id": 2668,
+    "project_id": 99,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Lê Hương Giang"
+    ],
+    "duration": 20,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:37:44.344485+00:00",
+    "updated_at": "2026-07-27T10:57:49.886865+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA212 - Recare"
+  },
+  {
+    "id": 1527,
+    "project_id": 57,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:53.650913+00:00",
+    "updated_at": "2026-07-27T10:57:29.010145+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA27"
+  },
+  {
+    "id": 1446,
+    "project_id": 54,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:52.86025+00:00",
+    "updated_at": "2026-07-27T10:57:36.65826+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA44"
+  },
+  {
+    "id": 2530,
+    "project_id": 94,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:33:33.831211+00:00",
+    "updated_at": "2026-07-27T10:57:45.986773+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA207 - Recare"
+  },
+  {
+    "id": 2531,
+    "project_id": 94,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:33:33.831211+00:00",
+    "updated_at": "2026-07-27T10:57:46.083318+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA207 - Recare"
+  },
+  {
+    "id": 2527,
+    "project_id": 94,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:33:33.831211+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA207 - Recare"
+  },
+  {
+    "id": 2555,
+    "project_id": 95,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:34:12.188982+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA208 - Recare"
+  },
+  {
+    "id": 1581,
+    "project_id": 59,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung"
+    ],
+    "duration": 0,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.06346+00:00",
+    "updated_at": "2026-07-27T10:57:30.680197+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA32"
+  },
+  {
+    "id": 1662,
+    "project_id": 62,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.663221+00:00",
+    "updated_at": "2026-07-27T10:57:33.319977+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA37"
+  },
+  {
+    "id": 2559,
+    "project_id": 95,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:34:12.188982+00:00",
+    "updated_at": "2026-07-27T10:57:46.914674+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA208 - Recare"
+  },
+  {
+    "id": 2584,
+    "project_id": 96,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Lê Hương Giang"
+    ],
+    "duration": 2,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:35:12.870095+00:00",
+    "updated_at": "2026-07-27T10:57:47.427549+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA209 - Recare"
+  },
+  {
+    "id": 2583,
+    "project_id": 96,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:35:12.870095+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA209 - Recare"
+  },
+  {
+    "id": 2643,
+    "project_id": 98,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:48.055697+00:00",
+    "updated_at": "2026-07-27T10:57:49.381053+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA211 - Recare"
+  },
+  {
+    "id": 2276,
+    "project_id": 84,
+    "node_id": "D2",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng NCC"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T04:22:35.11005+00:00",
+    "updated_at": "2026-07-27T10:57:38.308411+00:00",
+    "planned_date": "2026-10-15",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA48"
+  },
+  {
+    "id": 2614,
+    "project_id": 97,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:09.891794+00:00",
+    "updated_at": "2026-07-27T10:57:48.439478+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA210 - Recare"
+  },
+  {
+    "id": 2615,
+    "project_id": 97,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:09.891794+00:00",
+    "updated_at": "2026-07-27T10:57:48.534234+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA210 - Recare"
+  },
+  {
+    "id": 2640,
+    "project_id": 98,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Lê Hương Giang"
+    ],
+    "duration": 2,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:48.055697+00:00",
+    "updated_at": "2026-07-27T10:57:49.074797+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA211 - Recare"
+  },
+  {
+    "id": 2611,
+    "project_id": 97,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:09.891794+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA210 - Recare"
+  },
+  {
+    "id": 2639,
+    "project_id": 98,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:48.055697+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA211 - Recare"
+  },
+  {
+    "id": 2670,
+    "project_id": 99,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:37:44.344485+00:00",
+    "updated_at": "2026-07-27T10:57:50.13001+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA212 - Recare"
+  },
+  {
+    "id": 2416,
+    "project_id": 90,
+    "node_id": "D2",
+    "status": "Đang làm",
+    "pic": [
+      "Trần Thị Huyền Trang",
+      "Lê Hương Giang"
+    ],
+    "duration": 3,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:18:00.800904+00:00",
+    "updated_at": "2026-07-27T10:57:42.464011+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA203 - Recare"
+  },
+  {
+    "id": 2444,
+    "project_id": 91,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:19:17.951453+00:00",
+    "updated_at": "2026-07-27T10:57:43.297425+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA204 - Recare"
+  },
+  {
+    "id": 2671,
+    "project_id": 99,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:37:44.344485+00:00",
+    "updated_at": "2026-07-27T10:57:50.225793+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA212 - Recare"
+  },
+  {
+    "id": 2667,
+    "project_id": 99,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:37:44.344485+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA212 - Recare"
+  },
+  {
+    "id": 2696,
+    "project_id": 101,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:27:36.649014+00:00",
+    "updated_at": "2026-07-27T10:57:24.06589+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA01"
+  },
+  {
+    "id": 2699,
+    "project_id": 101,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:27:36.649014+00:00",
+    "updated_at": "2026-07-27T10:57:24.539264+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA01"
+  },
+  {
+    "id": 2698,
+    "project_id": 101,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:27:36.649014+00:00",
+    "updated_at": "2026-07-27T10:57:24.439973+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA01"
+  },
+  {
+    "id": 2695,
+    "project_id": 101,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:27:36.649014+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA01"
+  },
+  {
+    "id": 2612,
+    "project_id": 97,
+    "node_id": "D2",
+    "status": "Đã xong",
+    "pic": [
+      "Lê Hương Giang",
+      "Trưởng phòng PP"
+    ],
+    "duration": 2,
+    "actual_date": "2026-07-22",
+    "notes": "Tăng định mức hương theo mẫu nhận cuối cùng. Gửi ảnh ultra dots trước khi SX để confirm. Sếp đã duyệt",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [
+      {
+        "url": "https://res.cloudinary.com/xuyxunrb/image/upload/v1784709033/feelex-attachments/1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca_n29sra.jpg",
+        "name": "1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca.jpg"
+      }
+    ],
+    "created_at": "2026-07-17T07:36:09.891794+00:00",
+    "updated_at": "2026-07-27T10:57:48.242307+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA210 - Recare"
+  },
+  {
+    "id": 2723,
+    "project_id": 102,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:28:38.675159+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-10",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA02"
+  },
+  {
+    "id": 2727,
+    "project_id": 102,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:28:38.675159+00:00",
+    "updated_at": "2026-07-27T10:57:25.657836+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "DA02"
+  },
+  {
+    "id": 2724,
+    "project_id": 102,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:28:38.675159+00:00",
+    "updated_at": "2026-07-27T10:57:25.326861+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA02"
+  },
+  {
+    "id": 2726,
+    "project_id": 102,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T09:28:38.675159+00:00",
+    "updated_at": "2026-07-27T10:57:25.557336+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA02"
+  },
+  {
+    "id": 2360,
+    "project_id": 88,
+    "node_id": "D2",
+    "status": "Đã xong",
+    "pic": [
+      "Lê Hương Giang",
+      "Trưởng phòng PP"
+    ],
+    "duration": 3,
+    "actual_date": "2026-07-22",
+    "notes": "Tăng định mức hương theo mẫu nhận cuối cùng. Sếp đã duyệt",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [
+      {
+        "url": "https://res.cloudinary.com/xuyxunrb/image/upload/v1784708679/feelex-attachments/1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca_gc7aib.jpg",
+        "name": "1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca.jpg"
+      }
+    ],
+    "created_at": "2026-07-16T08:53:37.199366+00:00",
+    "updated_at": "2026-07-27T10:57:40.827032+00:00",
+    "planned_date": "2026-10-30",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA201 - Recare"
+  },
+  {
+    "id": 2528,
+    "project_id": 94,
+    "node_id": "D2",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:33:33.831211+00:00",
+    "updated_at": "2026-07-27T10:57:45.773923+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA207 - Recare"
+  },
+  {
+    "id": 1661,
+    "project_id": 62,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PC-DV",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.663221+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "DA37"
+  },
+  {
+    "id": 2359,
+    "project_id": 88,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:53:37.199366+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA201 - Recare"
+  },
+  {
+    "id": 2443,
+    "project_id": 91,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:19:17.951453+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA204 - Recare"
+  },
+  {
+    "id": 2499,
+    "project_id": 93,
+    "node_id": "D1",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:21:08.077847+00:00",
+    "updated_at": "2026-07-27T02:55:24.347508+00:00",
+    "planned_date": "2026-10-09",
+    "name": "Đánh giá khả thi công bố",
+    "project_code": "NA206 - Recare"
+  },
+  {
+    "id": 2586,
+    "project_id": 96,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:35:12.870095+00:00",
+    "updated_at": "2026-07-27T10:57:47.621947+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA209 - Recare"
+  },
+  {
+    "id": 2502,
+    "project_id": 93,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:21:08.077847+00:00",
+    "updated_at": "2026-07-27T10:57:45.171849+00:00",
+    "planned_date": "2026-11-07",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA206 - Recare"
+  },
+  {
+    "id": 1583,
+    "project_id": 59,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Trần Thị Huyền Trang"
+    ],
+    "duration": 0,
+    "actual_date": null,
+    "notes": "Tìm NCC mới",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-02T09:53:54.06346+00:00",
+    "updated_at": "2026-07-27T10:57:30.887094+00:00",
+    "planned_date": "2026-07-01",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA32"
+  },
+  {
+    "id": 2194,
+    "project_id": 81,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Nguyễn Thị Trang Nhung"
+    ],
+    "duration": 12,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-09T02:02:10.245379+00:00",
+    "updated_at": "2026-07-27T10:57:32.572034+00:00",
+    "planned_date": "2026-10-23",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "DA35"
+  },
+  {
+    "id": 2363,
+    "project_id": 88,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:53:37.199366+00:00",
+    "updated_at": "2026-07-27T10:57:41.126352+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA201 - Recare"
+  },
+  {
+    "id": 2391,
+    "project_id": 89,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T08:57:24.596895+00:00",
+    "updated_at": "2026-07-27T10:57:41.94659+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA202 - Recare"
+  },
+  {
+    "id": 2419,
+    "project_id": 90,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:18:00.800904+00:00",
+    "updated_at": "2026-07-27T10:57:42.778257+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA203 - Recare"
+  },
+  {
+    "id": 2447,
+    "project_id": 91,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-16T09:19:17.951453+00:00",
+    "updated_at": "2026-07-27T10:57:43.607973+00:00",
+    "planned_date": "2027-02-26",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA204 - Recare"
+  },
+  {
+    "id": 2556,
+    "project_id": 95,
+    "node_id": "D2",
+    "status": "Đã xong",
+    "pic": [
+      "Lê Hương Giang",
+      "Trưởng phòng PP"
+    ],
+    "duration": 2,
+    "actual_date": "2026-07-22",
+    "notes": "Tăng định mức hương theo mẫu nhận cuối cùng. Gửi ảnh ultra dots trước khi SX để confirm. Sếp đã duyệt",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [
+      {
+        "url": "https://res.cloudinary.com/xuyxunrb/image/upload/v1784708950/feelex-attachments/1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca_ksapsn.jpg",
+        "name": "1784708394861_2289554787636486844_2289554787636486844_3c6c8f4a3b7fc0f49854da03f6398bca.jpg"
+      }
+    ],
+    "created_at": "2026-07-17T07:34:12.188982+00:00",
+    "updated_at": "2026-07-27T10:57:46.595224+00:00",
+    "planned_date": "2026-10-31",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "NA208 - Recare"
+  },
+  {
+    "id": 2587,
+    "project_id": 96,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:35:12.870095+00:00",
+    "updated_at": "2026-07-27T10:57:47.716078+00:00",
+    "planned_date": "2027-02-27",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA209 - Recare"
+  },
+  {
+    "id": 2642,
+    "project_id": 98,
+    "node_id": "D3",
+    "status": "Bỏ qua",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-17T07:36:48.055697+00:00",
+    "updated_at": "2026-07-27T10:57:49.277122+00:00",
+    "planned_date": "2026-11-09",
+    "name": "Phê duyệt NCC gia công",
+    "project_code": "NA211 - Recare"
+  },
+  {
+    "id": 1803,
+    "project_id": 67,
+    "node_id": "D4",
+    "status": "Bỏ qua",
+    "pic": [],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "NCC",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-07T01:58:28.257782+00:00",
+    "updated_at": "2026-07-27T10:57:51.050932+00:00",
+    "planned_date": "2026-07-23",
+    "name": "Theo dõi độ ổn định chính thức tại nhà máy",
+    "project_code": "NA213 - Recare"
+  },
+  {
+    "id": 2778,
+    "project_id": 104,
+    "node_id": "D1",
+    "status": "Chưa làm",
+    "pic": [],
+    "duration": 5,
+    "actual_date": null,
+    "notes": "",
+    "dept": "",
+    "after": [
+      "B8"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:24:46.0649+00:00",
+    "updated_at": "2026-07-27T10:24:46.0649+00:00",
+    "planned_date": "2026-10-20",
+    "name": null,
+    "project_code": "DA49"
+  },
+  {
+    "id": 2779,
+    "project_id": 104,
+    "node_id": "D2",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 25,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "B7"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:24:46.0649+00:00",
+    "updated_at": "2026-07-27T10:57:39.141923+00:00",
+    "planned_date": "2026-11-10",
+    "name": "Pha mẫu & sửa mẫu",
+    "project_code": "DA49"
+  },
+  {
+    "id": 2781,
+    "project_id": 104,
+    "node_id": "D3",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 7,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D2"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:24:46.0649+00:00",
+    "updated_at": "2026-07-27T10:57:39.340698+00:00",
+    "planned_date": "2026-11-18",
+    "name": null,
+    "project_code": "DA49"
+  },
+  {
+    "id": 2782,
+    "project_id": 104,
+    "node_id": "D4",
+    "status": "Chưa làm",
+    "pic": [
+      "Trưởng phòng PP"
+    ],
+    "duration": 90,
+    "actual_date": null,
+    "notes": "",
+    "dept": "PP",
+    "after": [
+      "D3"
+    ],
+    "attachments": [],
+    "created_at": "2026-07-27T10:24:46.0649+00:00",
+    "updated_at": "2026-07-27T10:57:39.441574+00:00",
+    "planned_date": "2027-03-09",
+    "name": null,
+    "project_code": "DA49"
+  }
+]

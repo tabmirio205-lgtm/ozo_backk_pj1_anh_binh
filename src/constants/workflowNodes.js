@@ -23,8 +23,9 @@ const WORKFLOW_NODES = [
   { code: 'F1', stage: 'F. Ra mắt & Truyền thông', name: 'Đào tạo sản phẩm', dept: 'RD', defaultDuration: 14, defaultAfter: ['E2'] },
   { code: 'F2', stage: 'F. Ra mắt & Truyền thông', name: 'Chuẩn bị launching', dept: 'Sale', defaultDuration: 30, defaultAfter: ['F1'] },
   { code: 'G1', stage: 'G. Sản xuất lô đầu', name: 'Xây dựng tài liệu sản xuất', dept: 'RD', defaultDuration: 3, defaultAfter: ['C5'] },
-  { code: 'G2', stage: 'G. Sản xuất lô đầu', name: 'Kiểm tra cảm quan mẫu', dept: 'RD', defaultDuration: 8, defaultAfter: ['G1'] },
-  { code: 'G3', stage: 'G. Sản xuất lô đầu', name: 'Sản xuất lô đầu và kiểm nghiệm', dept: 'PP', defaultDuration: 60, defaultAfter: ['G2'] },
+  // G2 và G3 chạy SONG SONG sau G1, và có cùng số ngày.
+  { code: 'G2', stage: 'G. Sản xuất lô đầu', name: 'Kiểm tra cảm quan mẫu', dept: 'RD', defaultDuration: 60, defaultAfter: ['G1'] },
+  { code: 'G3', stage: 'G. Sản xuất lô đầu', name: 'Sản xuất lô đầu và kiểm nghiệm', dept: 'PP', defaultDuration: 60, defaultAfter: ['G1'] },
 ];
 
 const NODE_INDEX = Object.fromEntries(WORKFLOW_NODES.map((node) => [node.code, node]));
