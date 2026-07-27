@@ -37,7 +37,7 @@ function requireManager(req, res, next) {
 }
 
 // Khách "chỉ xem" (role='guest', vào bằng nút Chỉ xem ở trang đăng nhập) chỉ được
-// đọc ĐÚNG endpoint nuôi bảng "Ngày hàng về" (G4) ở trang Milestone. Dùng NGAY SAU
+// đọc ĐÚNG endpoint nuôi bảng "Ngày hàng về" (G3) ở trang Milestone. Dùng NGAY SAU
 // requireAuth khi mount /api/projects — req.path lúc đó đã bỏ tiền tố mount.
 function restrictGuest(req, res, next) {
   if (req.user?.role !== 'guest') return next();

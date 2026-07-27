@@ -25,7 +25,7 @@ async function postVerifyLarkCode(req, res) {
   res.json(result);
 }
 
-// Vào chế độ "chỉ xem" (không cần mã): chỉ thấy bảng Ngày hàng về (G4).
+// Vào chế độ "chỉ xem" (không cần mã): chỉ thấy bảng Ngày hàng về (G3).
 async function postGuest(req, res) {
   res.json(issueGuestToken());
 }

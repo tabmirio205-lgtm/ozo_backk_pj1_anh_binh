@@ -326,7 +326,7 @@ async function verifyLoginByBotCode(rawCode) {
 
 // === Khách "chỉ xem" ===
 // Không cần OTP, không có dòng trong app_users (sub=0 -> chỉ dùng để ký JWT).
-// Vai trò 'guest' chỉ đọc được danh sách dự án cho bảng "Ngày hàng về" (G4) ở
+// Vai trò 'guest' chỉ đọc được danh sách dự án cho bảng "Ngày hàng về" (G3) ở
 // trang Milestone; mọi API khác bị chặn ở middleware restrictGuest/denyGuest.
 function issueGuestToken() {
   const user = { id: 0, email: null, role: 'guest', picName: null, leadDepts: [] };

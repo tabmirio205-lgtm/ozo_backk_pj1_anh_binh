@@ -539,7 +539,7 @@ const tools = {
     declaration: {
       name: 'explain_workflow',
       description:
-        'Giải thích quy trình chuẩn 28 bước (A→G). Truyền node_code để mô tả 1 bước cụ thể + bước phụ thuộc; bỏ trống để lấy toàn bộ danh sách.',
+        'Giải thích quy trình chuẩn 27 bước (A→G). Truyền node_code để mô tả 1 bước cụ thể + bước phụ thuộc; bỏ trống để lấy toàn bộ danh sách.',
       parameters: {
         type: 'OBJECT',
         properties: {
