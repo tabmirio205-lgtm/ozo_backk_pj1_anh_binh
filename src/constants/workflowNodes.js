@@ -30,5 +30,22 @@ const WORKFLOW_NODES = [
 
 const NODE_INDEX = Object.fromEntries(WORKFLOW_NODES.map((node) => [node.code, node]));
 
-module.exports = { WORKFLOW_NODES, NODE_INDEX };
+// Các cặp bước KHOÁ SỐ NGÀY VỚI NHAU: chạy song song và phải luôn cùng số ngày,
+// nên sửa số ngày (hoặc chọn ngày dự kiến) ở 1 bước thì bước kia đi theo.
+// Xem updateProjectNode() trong services/projectService.js.
+const TWIN_DURATION_PAIRS = [['G2', 'G3']];
+
+const TWIN_OF = Object.fromEntries(
+  TWIN_DURATION_PAIRS.flatMap(([a, b]) => [
+    [a, b],
+    [b, a],
+  ]),
+);
+
+// Bước bị khoá số ngày cùng bước nào? Không có -> null.
+function twinDurationOf(code) {
+  return TWIN_OF[code] || null;
+}
+
+module.exports = { WORKFLOW_NODES, NODE_INDEX, TWIN_DURATION_PAIRS, twinDurationOf };
 

@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { getSupabaseClient } = require('../config/supabaseClient');
-const { WORKFLOW_NODES, NODE_INDEX } = require('../constants/workflowNodes');
+const { WORKFLOW_NODES, NODE_INDEX, twinDurationOf } = require('../constants/workflowNodes');
 const { leaderLabel } = require('./picMembersService');
 const { toPicArray } = require('../utils/pic');
 const { computeAllDates, isoLocal } = require('../utils/datePlanner');
@@ -132,7 +132,41 @@ async function updateProjectNode(projectId, nodeId, payload) {
     .select('*')
     .single();
   if (error) throw error;
+
+  // Bước có "bước song sinh" (G2 ↔ G3): số ngày phải luôn bằng nhau, nên đổi số
+  // ngày ở 1 bên -> ghi luôn sang bên kia. Ngày dự kiến trên web cũng lưu về
+  // `duration` (xem NodeTable) nên chọn ngày ở 1 bước là bước kia dời theo.
+  // CHỈ chép mỗi `duration` — trạng thái/PIC/ghi chú của 2 bước vẫn độc lập.
+  if (payload.duration !== undefined) {
+    const twin = twinDurationOf(nodeId);
+    if (twin) await syncTwinDuration(supabase, projectId, twin, data.duration);
+  }
+
   return data;
+}
+
+// Ghi `duration` sang bước song sinh (nếu dự án có bước đó và đang lệch).
+// Lỗi ở đây KHÔNG làm hỏng lần lưu chính: chỉ ghi log để còn lần sửa sau.
+async function syncTwinDuration(supabase, projectId, twinId, duration) {
+  try {
+    const { data: twin, error } = await supabase
+      .from('project_nodes')
+      .select('duration')
+      .eq('project_id', projectId)
+      .eq('node_id', twinId)
+      .maybeSingle();
+    if (error) throw error;
+    if (!twin || twin.duration === duration) return;
+
+    const { error: upErr } = await supabase
+      .from('project_nodes')
+      .update({ duration })
+      .eq('project_id', projectId)
+      .eq('node_id', twinId);
+    if (upErr) throw upErr;
+  } catch (e) {
+    console.error(`[twin-duration] P${projectId} ${twinId} không đồng bộ được:`, e.message);
+  }
 }
 
 // Khi 1 bước hoàn tất -> các bước kế tiếp (successor trực tiếp) đủ điều kiện thì
