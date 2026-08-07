@@ -1,4 +1,5 @@
 const {
+      PROJECT_STATUSES,
       listProjects,
       listProjectsWithNodes,
       getProjectDetail,
@@ -95,9 +96,31 @@ async function copyProjectController(req, res) {
 
 async function patchProject(req, res) {
       const projectId = Number(req.params.projectId);
-      const payload = req.body || {};
-      const updated = await updateProject(projectId, payload);
-      res.json(updated);
+      const payload = { ...(req.body || {}) };
+
+      // Trạng thái dự án chỉ nhận 3 giá trị hợp lệ (route đã chặn: chỉ manager).
+      if (payload.status !== undefined) {
+            const status = String(payload.status || "").trim();
+            if (!PROJECT_STATUSES.includes(status)) {
+                  return res.status(400).json({
+                        error: `Trạng thái dự án không hợp lệ. Chọn 1 trong: ${PROJECT_STATUSES.join(", ")}.`,
+                  });
+            }
+            payload.status = status;
+      }
+
+      try {
+            const updated = await updateProject(projectId, payload);
+            res.json(updated);
+      } catch (e) {
+            // DB chưa chạy sql/project-status.sql -> báo rõ thay vì lỗi 500 khó hiểu.
+            if (payload.status !== undefined && /status/i.test(e.message || "")) {
+                  return res.status(400).json({
+                        error: "DB chưa có cột trạng thái dự án. Chạy backend/sql/project-status.sql trong Supabase rồi thử lại.",
+                  });
+            }
+            throw e;
+      }
 }
 
 async function removeProject(req, res) {

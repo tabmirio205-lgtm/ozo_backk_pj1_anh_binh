@@ -65,14 +65,32 @@ async function ensureMasterNodes() {
   if (error) throw error;
 }
 
-async function listProjects() {
+// TRẠNG THÁI DỰ ÁN (không phải trạng thái từng bước). Trùng với
+// PROJECT_STATUS_OPTIONS ở frontend/src/constants.ts và check constraint trong
+// sql/project-status.sql.
+const PROJECT_STATUSES = ['Đang hoạt động', 'Pending', 'Hoàn tất'];
+
+// Cột của bảng projects dùng cho danh sách. `status` là TRẠNG THÁI DỰ ÁN
+// ('Đang hoạt động' | 'Pending' | 'Hoàn tất'), thêm bởi sql/project-status.sql.
+const PROJECT_COLS = 'id,code,name,type,category,product_group,owner,start_date,status';
+const PROJECT_COLS_LEGACY = 'id,code,name,type,category,product_group,owner,start_date';
+
+// Đọc danh sách dự án; nếu DB chưa có cột status (chạy trước sql/project-status.sql)
+// thì bỏ cột đó rồi thử lại — cùng cách xử lý như writeNodes().
+async function selectProjects() {
   const supabase = getSupabaseClient();
-  const { data, error } = await supabase
-    .from('projects')
-    .select('id,code,name,type,category,product_group,owner,start_date')
-    .order('start_date', { ascending: true });
+  const run = (cols) =>
+    supabase.from('projects').select(cols).order('start_date', { ascending: true });
+  let { data, error } = await run(PROJECT_COLS);
+  if (error && /status/i.test(error.message || '')) {
+    ({ data, error } = await run(PROJECT_COLS_LEGACY));
+  }
   if (error) throw error;
   return data ?? [];
+}
+
+async function listProjects() {
+  return selectProjects();
 }
 
 async function getProjectDetail(projectId) {
@@ -282,13 +300,9 @@ async function revertDependentsToNotStarted(projectId, changedNodeId) {
 async function listProjectsWithNodes() {
   const supabase = getSupabaseClient();
 
-  const { data: projects, error: projectsError } = await supabase
-    .from('projects')
-    .select('id,code,name,type,category,product_group,owner,start_date')
-    .order('start_date', { ascending: true });
-  if (projectsError) throw projectsError;
+  const projects = await selectProjects();
 
-  const ids = (projects ?? []).map((p) => p.id);
+  const ids = projects.map((p) => p.id);
   if (ids.length === 0) return [];
 
   const { data: nodes, error: nodesError } = await supabase
@@ -504,6 +518,7 @@ async function seedFromPayload(projects) {
 }
 
 module.exports = {
+  PROJECT_STATUSES,
   ensureMasterNodes,
   listProjects,
   listProjectsWithNodes,
