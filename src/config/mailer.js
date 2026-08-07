@@ -28,7 +28,7 @@ function buildContent(code) {
     html:
       `<p>Mã đăng nhập <b>Feelex QLDA</b> của bạn là:</p>` +
       `<p style="font-size:26px;font-weight:700;letter-spacing:6px;margin:8px 0">${code}</p>` +
-      `<p style="color:#64748b">Mã có hiệu lực trong ít phút. Không chia sẻ mã này cho bất kỳ ai. truy cập: https://ozo-truong-binhs-projects.vercel.app</p>`,
+      `<p style="color:#64748b">Mã có hiệu lực trong ít phút. Không chia sẻ mã này cho bất kỳ ai. truy cập: https://qlda-rd.feelex.vn</p>`,
   };
 }
 

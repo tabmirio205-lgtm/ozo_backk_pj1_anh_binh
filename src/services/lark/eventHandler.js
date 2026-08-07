@@ -77,7 +77,7 @@ async function handleLoginRequest(chatId, openId, chatType) {
       chatId,
       `🔐 Mã đăng nhập Feelex QLDA của bạn: ${res.code}\n` +
         `Hiệu lực ${res.ttlMinutes} phút. Nhập mã này trên web để đăng nhập với tên "${res.picName}".\n` +
-        '⚠️ Không chia sẻ mã này cho bất kỳ ai. Truy cập: https://ozo-truong-binhs-projects.vercel.app',
+        '⚠️ Không chia sẻ mã này cho bất kỳ ai. Truy cập: https://qlda-rd.feelex.vn',
     );
   } catch (err) {
     console.error('[login-otp] lỗi:', err.message);

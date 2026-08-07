@@ -230,7 +230,7 @@ function composeMessage(list) {
     );
     out.push('');
   }
-  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://ozo-truong-binhs-projects.vercel.app. Cảm ơn bạn!');
+  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://qlda-rd.feelex.vn. Cảm ơn bạn!');
   return out.join('\n');
 }
 
@@ -465,7 +465,7 @@ function composeStartedMessage(list) {
     out.push(`  ${projectUrl(it.project)}`);
   });
   out.push('');
-  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://ozo-truong-binhs-projects.vercel.app. Cảm ơn bạn!');
+  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://qlda-rd.feelex.vn. Cảm ơn bạn!');
   return out.join('\n');
 }
 
@@ -586,7 +586,7 @@ function composeDateChangedMessage(list) {
     out.push(`  ${projectUrl(it.project)}`);
   });
   out.push('');
-  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://ozo-truong-binhs-projects.vercel.app. Cảm ơn bạn!');
+  out.push('Nhắn cập nhật cho tôi lúc xong hoặc cập nhật tiến độ trên Feelex QLDA - https://qlda-rd.feelex.vn. Cảm ơn bạn!');
   return out.join('\n');
 }
 
@@ -672,7 +672,7 @@ function composeCompletedMessage(project, node, statusLabel, pic) {
     `• [${project.code}] ${project.name || ''} – ${node.node_id} ${node.node_name || ''}${who}`,
     `  ${projectUrl(project)}`,
     '',
-    'Xem chi tiết trên Feelex QLDA - https://ozo-truong-binhs-projects.vercel.app. Cảm ơn bạn!',
+    'Xem chi tiết trên Feelex QLDA - https://qlda-rd.feelex.vn. Cảm ơn bạn!',
   ].join('\n');
 }
 

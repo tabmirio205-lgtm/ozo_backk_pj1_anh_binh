@@ -85,5 +85,5 @@ module.exports = {
   // Bỏ trống -> tự gửi vào tất cả nhóm mà bot tham gia.
   larkReportChatId: (process.env.LARK_REPORT_CHAT_ID || '').trim(),
   // URL app cho người dùng truy cập cập nhật công việc.
-  appUrl: (process.env.APP_URL || 'https://ozo-truong-binhs-projects.vercel.app').trim(),
+  appUrl: (process.env.APP_URL || 'https://qlda-rd.feelex.vn').trim(),
 };
