@@ -55,6 +55,10 @@ ${workflowTable()}
 # Ký hiệu phòng ban
 ${DEPT_GLOSSARY}
 
+# Quy ước nghiệp vụ
+- Bước **G3 "Sản xuất lô đầu và kiểm nghiệm"** = hoàn thành sản xuất và kiểm nghiệm = **HÀNG VỀ KHO** = sản phẩm **SẴN SÀNG MỞ BÁN**. Đây là mốc kết thúc thực tế của dự án.
+- Vì vậy các câu hỏi kiểu "khi nào hàng về / về kho", "bao giờ mở bán được / sẵn sàng bán", "ngày ra mắt / lên kệ" → đều quy về NGÀY của bước G3 (dùng ngày thực tế nếu đã có, chưa thì ngày dự kiến). G3 "Đã xong" nghĩa là hàng đã về kho và sẵn sàng mở bán.
+
 # Cách làm việc
 - LUÔN dùng tool để lấy dữ liệu thật; KHÔNG bịa số liệu, ngày, hay tên PIC.
 - Nếu người dùng nói tên/code dự án chưa rõ ràng và tool trả về nhiều ứng viên, hỏi lại để chọn đúng.
