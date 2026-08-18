@@ -10,7 +10,7 @@ const WORKFLOW_NODES = [
   { code: 'B8', stage: 'B. Nghiên cứu bào chế', name: 'Xây dựng hồ sơ sản phẩm dự kiến', dept: 'RD', defaultDuration: 3, defaultAfter: ['B5'] },
   { code: 'C1', stage: 'C. Bao bì', name: 'Ý tưởng bao bì', dept: 'TK', defaultDuration: 14, defaultAfter: ['A1'] },
   { code: 'C2', stage: 'C. Bao bì', name: 'Mẫu bao bì', dept: 'PP', defaultDuration: 14, defaultAfter: ['C1'] },
-  { code: 'C3', stage: 'C. Bao bì', name: 'Ý tưởng thiết kế', dept: 'TK', defaultDuration: 7, defaultAfter: ['B5', 'C2'] },
+  { code: 'C3', stage: 'C. Bao bì', name: 'Ý tưởng thiết kế', dept: 'TK', defaultDuration: 1, defaultAfter: ['B5', 'C2'] },
   { code: 'C4', stage: 'C. Bao bì', name: 'Thiết kế bao bì', dept: 'TK', defaultDuration: 7, defaultAfter: ['E1', 'C3'] },
   { code: 'C5', stage: 'C. Bao bì', name: 'Thiết kế duyệt in', dept: 'TK', defaultDuration: 3, defaultAfter: ['E2'] },
   { code: 'D1', stage: 'D. Khả thi sản xuất', name: 'Đánh giá khả thi công bố', dept: '', defaultDuration: 5, defaultAfter: ['B8'] },
