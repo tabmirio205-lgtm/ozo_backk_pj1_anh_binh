@@ -305,13 +305,24 @@ async function listProjectsWithNodes() {
   const ids = projects.map((p) => p.id);
   if (ids.length === 0) return [];
 
-  const { data: nodes, error: nodesError } = await supabase
-    .from('project_nodes')
-    .select('*')
-    .in('project_id', ids)
-    .order('project_id', { ascending: true })
-    .order('node_id', { ascending: true });
-  if (nodesError) throw nodesError;
+  // PostgREST giới hạn ~1000 dòng/response. Với 26 bước/dự án, chỉ ~38 dự án là
+  // chạm trần -> các dự án id lớn (mới tạo/copy) bị CẮT hết node và hiện 0/0.
+  // Phải phân trang để lấy ĐỦ node của mọi dự án.
+  const PAGE = 1000;
+  const nodes = [];
+  for (let from = 0; ; from += PAGE) {
+    const { data: page, error: nodesError } = await supabase
+      .from('project_nodes')
+      .select('*')
+      .in('project_id', ids)
+      .order('project_id', { ascending: true })
+      .order('node_id', { ascending: true })
+      .range(from, from + PAGE - 1);
+    if (nodesError) throw nodesError;
+    if (!page || page.length === 0) break;
+    nodes.push(...page);
+    if (page.length < PAGE) break;
+  }
 
   const { data: masterNodes, error: masterError } = await supabase
     .from('master_nodes')
