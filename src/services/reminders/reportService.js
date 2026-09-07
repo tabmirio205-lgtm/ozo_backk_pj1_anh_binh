@@ -70,6 +70,10 @@ async function computeReport() {
   const dueSoon = [];
 
   for (const { project, nodes } of projects) {
+    // Chỉ báo cáo dự án ĐANG HOẠT ĐỘNG. Bỏ qua Pending/Hoàn tất.
+    // Dự án chưa có status (DB cũ) coi như "Đang hoạt động".
+    const projStatus = (project.status || '').trim() || 'Đang hoạt động';
+    if (projStatus !== 'Đang hoạt động') continue;
     const dates = computeAllDates({ project, nodes });
     for (const node of nodes) {
       if (DONE.has(node.status)) continue;
